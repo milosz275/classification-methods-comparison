@@ -44,33 +44,41 @@ For each dataset, a comparison of the accuracies of the algorithms was conducted
 ### Results – Iris dataset
 #### Accuracies of models in the iris dataset
 This comparison illustrates the accuracies of the 1-NN, k-NN, SVM, and Random Forest models in classifying iris species. In this case, SVM proved to be the most effective in classification.
-
+![](/src/acc-iris.png)
 
 #### k-NN accuracies in the iris dataset
 In the following comparison, the accuracy of the k-NN algorithm in classifying iris species is shown, varying with algorithm parameters for the iris dataset. Performance was examined for k from 1 to 100. No distinguishable trend was observed regarding the k parameter, but for larger k values, accuracy decreases.
+![](/src/knn-iris.png)
 
 #### SVM accuracies in the iris dataset
 In the last comparison, the accuracy variation of the SVM algorithm in classifying iris species is shown, depending on algorithm parameters for the iris dataset. A decrease in performance is noticeable when parameters are set to 3.
+![](/src/svm-iris.png)
 
 ### Results – Penguins dataset
 #### Accuracies of models in the penguins dataset
 This comparison illustrates the accuracies of the 1-NN, k-NN, SVM, and Random Forest models in classifying penguin species. A significant advantage is observed for the Random Forest and SVM algorithms.
+![](/src/acc-penguins.png)
 
 #### k-NN accuracies in the penguins dataset
 In the following comparison, the accuracy of the k-NN algorithm in classifying penguin species is shown, varying with algorithm parameters for the penguins dataset. Performance was examined for k from 1 to 100. Initial k values are the most efficient.
+![](/src/knn-penguins.png)
 
 #### SVM accuracies in the penguins dataset
 In the last comparison, the accuracy variation of the SVM algorithm in classifying penguin species is shown, depending on algorithm parameters for the penguins dataset. The SVM algorithm demonstrates its best efficiency with parameters set to 1.
+![](/src/svm-penguins.png)
 
 ### Results – Hawks dataset
 #### Accuracies of models in the Hawks dataset
 This comparison illustrates the accuracies of the 1-NN, k-NN, and SVM models in classifying hawk species. All algorithms perform similarly well.
+![](/src/acc-Hawks.png)
 
 #### k-NN accuracies in the Hawks dataset
 In the following comparison, the accuracy of the k-NN algorithm in classifying hawk species is shown, varying with algorithm parameters for the Hawks dataset. Performance was examined for k from 1 to 100. Initial k values are the most efficient, with a noticeable decline at k = 2.
+![](/src/knn-Hawks.png)
 
 #### SVM accuracies in the Hawks dataset
 In the last comparison, the accuracy variation of the SVM algorithm in classifying hawk species is shown, depending on algorithm parameters for the Hawks dataset. In this case, similar accuracy is observed for all three combinations of SVM algorithm parameters.
+![](/src/svm-hawks.png)
 
 ## Summary
 The direct observation suggests that, on average, the most effective algorithm is SVM, achieving a classification accuracy of 97% on the test datasets. The Random Forest algorithm performed slightly less well but still competently. Conversely, both 1-NN and k-NN algorithms, where accuracy was taken as the maximum over the range of k values from 1 to 100, exhibited relatively lower performance.
